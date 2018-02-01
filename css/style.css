@@ -1,0 +1,59 @@
+/* TNA Law office Style */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i');
+
+body {
+    font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; color: #555; margin: 0; padding: 0;
+}
+
+/* Text */
+
+h1 {margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700;}
+h2 {margin: 0 0 .5em 0; font-size: 1.6em; font-weight: 700; line-height: 1.1em;}
+h3 {margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700;}
+h4 {margin: 0 0 1.5em 0; font-size: 1em; font-weight: 700;}
+
+p { margin: 0 0 1em 0; }
+
+a { color: #007eff; }
+a:visited { color: #65b1ff; }
+
+/* Header */
+
+header { height: 120px; 
+    background: #000;
+    position: relative;
+     }
+header a.logo {
+    z-index: 0;
+    position: absolute;
+    display: block; width: 260px; height: 66px;
+    background: url(../images/logo_tna.png) no-repeat 0 0; background-size: contain;
+    top: 15px; left: 20px;
+}
+
+header a.logo span {display: none;}
+
+
+.debug {border: dashed;}
+
+@media screen and (max-width:1000px) {
+    header {background: aqua;}
+}
+
+@media screen and (max-width:825px) {
+    header {background: aqua;}
+}
+
+@media screen and (max-width:760px) {
+    header {background: red;}
+}
+
+@media screen and (max-width:625px) {
+    header {background: blue;}
+}
+
+@media screen and (max-width:425px) {
+    header {background: green;}
+}
+
