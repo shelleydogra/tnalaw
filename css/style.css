@@ -58,16 +58,16 @@ header a.logo span {display: none;}
 }
 
 @media screen and (max-width:320px) {
-    header { height: 80px; 
-    background: pink;
+    header { height: 75px; 
+    background: black;
     position: relative;
-     }
+    }
     header a.logo {
     z-index: 0;
     position: absolute;
     display: block; width: 160px; height: 56px;
     background: url(../images/logo_tna.png) no-repeat 0 0; background-size: contain;
-    top: 15px; left: 20px;
+    top: 7px; left: 10px;
     }
 }
 
