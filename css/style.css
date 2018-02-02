@@ -38,29 +38,40 @@ header a.logo span {display: none;}
 .debug {border: dashed;}
 
 @media screen and (max-width:1024px) {
-    header {background: black;}
+    header {background: black;
+        border: dashed aqua;
+    }
 }
 
 @media screen and (max-width:834px) {
-    header {background: black;}
+    header {background: black;
+         border: dashed pink;
+    }
 }
 
 @media screen and (max-width:768px) {
-    header {background: black;}
+    header {background: black;
+         border: dashed yellow;
+    }
 }
 
 @media screen and (max-width:414px) {
-    header {background: black;}
+    header {background: black;
+         border: dashed red;
+    }
 }
 
 @media screen and (max-width:375px) {
-    header {background: black;}
+    header {background: black;
+         border: dashed green;
+    }
 }
 
 @media screen and (max-width:320px) {
     header { height: 75px; 
     background: black;
     position: relative;
+     border: dashed blue;
     }
     header a.logo {
     z-index: 0;
