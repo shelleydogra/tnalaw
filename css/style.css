@@ -38,23 +38,23 @@ header a.logo span {display: none;}
 .debug {border: dashed;}
 
 @media screen and (max-width:1024px) {
-    header {background: aqua;}
+    header {background: black;}
 }
 
 @media screen and (max-width:834px) {
-    header {background: aqua;}
+    header {background: black;}
 }
 
 @media screen and (max-width:768px) {
-    header {background: red;}
+    header {background: black;}
 }
 
 @media screen and (max-width:414px) {
-    header {background: blue;}
+    header {background: black;}
 }
 
 @media screen and (max-width:375px) {
-    header {background: green;}
+    header {background: black;}
 }
 
 @media screen and (max-width:320px) {
