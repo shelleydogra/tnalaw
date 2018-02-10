@@ -22,50 +22,76 @@ a:visited { color: #65b1ff; }
 
 /* Header */
 
-header { height: 120px; 
+header { height: 160px; 
     background: #000;
     position: relative;
      }
 header a.logo {
     z-index: 0;
     position: absolute;
-    display: block; width: 200px; height: 66px;
+    display: block; width: 300px; height: 120px;
     background: url(../images/logo_tna.png) no-repeat 0 0; background-size: contain;
-    top: 15px; left: 20px;
+    top: 20px; left: 20px; 
 }
 
 header a.logo span {display: none;}
+
+/* header div.law-firm {position: absolute; width: 42%; top:130px; border: dashed blue;} */
+
+
+
+
+/* Section - ALL*/
+
+section {padding: 0 30px;}
+section::after { content: ''; display: block; clear: both; }
+
+
+/* Section - Law Focus */
+
+section.law-focus {
+   margin-top: 20px; margin-bottom: 30px; padding: 0;    
+}
+
+section.law-focus aside {
+    width: 49%; float: left; text-align: center;
+}
+
+section.law-focus .content {margin: 15px; background: no-repeat center top; background-size: 75px 75px; padding-top: 85px;}
+
+section.law-focus aside h3 a {color: #555; text-decoration: none;}
+section.law-focus aside h3 a:hover { text-decoration: underline; }
+
+section.law-focus aside .content.bankruptcy {background-image: url(../images/dollar-sign.svg);}
+section.law-focus aside .content.real-estate { background-image: url(../images/house.svg); }
+
+
 
 
 .debug {border: dashed;}
 
 @media screen and (max-width:1024px) {
     header {background: black;
-        border: dashed aqua;
     }
 }
 
 @media screen and (max-width:834px) {
     header {background: black;
-         border: dashed pink;
     }
 }
 
 @media screen and (max-width:768px) {
     header {background: black;
-         border: dashed yellow;
     }
 }
 
 @media screen and (max-width:414px) {
     header {background: black;
-         border: dashed red;
     }
 }
 
 @media screen and (max-width:375px) {
     header {background: black;
-         border: dashed green;
     }
 }
 
@@ -73,7 +99,6 @@ header a.logo span {display: none;}
     header { height: 75px; 
     background: black;
     position: relative;
-     border: dashed blue;
     }
     header a.logo {
     z-index: 0;
