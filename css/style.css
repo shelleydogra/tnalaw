@@ -1,4 +1,9 @@
-/* TNA Law office Style */
+/* TNA Law office Style 
+    goldenrod: #DAA520
+    
+    
+*/
+
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i');
 
@@ -67,80 +72,50 @@ section.law-focus aside .content.bankruptcy {background-image: url(../images/dol
 section.law-focus aside .content.real-estate { background-image: url(../images/house.svg); }
 
 
+.navbar > a {
+    color: #DAA520;
+}
 
-
-
-nav {
-	position: absolute;
-	top: 100px; left: 45px;
+nav > a:hover {
+    color: #9a9a9a;
 }
 
 nav .active {
-    color: #ffd700;
+    text-decoration: underline;
+    color: #af9500;
+
 }
 
-nav::after { content:''; display: block; clear: both; }
-
-nav ul { list-style: none; margin: 0px; padding: 0px;}
-
-nav ul li:hover { }
-
-nav ul li a {
-	display: inline-block;
-	color: #fff;
-	padding: 10px 20px;
-	text-decoration: none;
-	width: 125px;
-	position: relative;
-	border: dashed red;
+.navbar {
+    background-color: #000;
 }
 
-nav ul li a:visited { color: #fff; }
-
-nav ul li a:hover { background-color: #000; color: #ffd700; }
-nav ul li:hover > ul {display: block;}
-
-nav ul ul { position: absolute; top: 100%; background-color: #000000; display: none; }
-
-nav ul ul li {position: relative; }
-
-nav ul ul ul { left: 100%; top: 0px; }
-
-
-
-
-/* Navigation Top-Level */
-
-
-nav > ul {padding-left: 280px;}
-
-nav > ul > li {float: left;}
-
-nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px; }
-
-nav a[aria-haspopup="ture"]::after {
-	content: '';
-	display: block; width: 0px; height: 0px;
-	position: absolute;
-	top: 16px; right: 20px;
-	border-top: 4px solid transparent;
-	border-bottom: 4px solid transparent;
-	border-left: 4px solid #fff;
+.dropdown-menu {
+    background-color: #000;
 }
 
-nav > ul > li > a[aria-haspopup="true"]::after {
-	border-left: 4px solid transparent;
-	border-right: 4px solid transparent;
-	border-top: 4px solid #fff;
-	left: 20px; right: auto;
-	bottom: 6px; top: auto;
+.dropdown-menu > a {
+   color: #af9500;
 }
+
+.dropdown-menu > a:hover {
+   color: #9a9a9a;
+}
+
+.navbar-brand {
+    width: 30%;
+    }
+
 .map {
     text-align: center;
     width: 100%;
 }
 
-
+.jumbotron {
+    color: #9a9a9a;
+    background-color: #000;
+    border: solid #af9500;
+}
 
 
 
