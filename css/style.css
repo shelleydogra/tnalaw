@@ -72,8 +72,9 @@ section.law-focus aside .content.bankruptcy {background-image: url(../images/dol
 section.law-focus aside .content.real-estate { background-image: url(../images/house.svg); }
 
 
-.navbar > a {
-    color: #DAA520;
+nav > a {
+    color: #daa520;
+    border: none;
 }
 
 nav > a:hover {
@@ -109,17 +110,21 @@ nav .active {
 
 .map {
     text-align: center;
-    width: 100%;
+    width: 75%;
 }
 
 .jumbotron {
-    color: #9a9a9a;
-    background-color: #000;
-    border: solid #af9500;
+    color: #af9500;
+    background-color: #555;
+    border: solid #9a9a9a;
 }
 
-
-
+.carousel {
+    width:640px;
+    height:360px;
+    margin: 100px auto 50px auto;
+    overflow: hidden;
+}
 
 
 
