@@ -104,6 +104,7 @@ nav .active {
 
 .navbar-brand {
     width: 30%;
+    min-width: 186px;
     }
 
 .map {
@@ -134,7 +135,7 @@ footer a:visited { color: #777; }
 footer a:hover { color: #000; }
 
 
-.debug {border: dashed;}
+.debug {border: dashed blue;}
 
 @media screen and (max-width:1024px) {
     header {background: black;
