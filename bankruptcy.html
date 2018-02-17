@@ -37,9 +37,21 @@
 
                 <div class="collapse navbar-collapse" id="myTogglerNav">
                     <div class="navbar-nav nav-fill ml-sm-auto">
-                        <a class="nav-item nav-link" href="index.html">Home</a>
-                        <a class="nav-item nav-link active" href="bankruptcy.html">Bankruptcy</a>
-                        <a class="nav-item nav-link" href="realestate.html">Real Estate</a>
+                        <a class="nav-item nav-link " href="index.html">Home</a>
+                        <div class="dropdown">
+
+                            <a class="nav-item nav-link dropdown-toggle"
+                            data-toggle="dropdown" id="servicesDropdown"
+                            aria-haspopup="true" aria-expanded="false"
+                            >Services
+                            </a>
+
+                            <div class="dropdown-menu" aria-labeleldby="serviesDropdown">
+                                <a class="nav-item nav-link active" href="bankruptcy.html">Bankruptcy</a>
+                                <a class="nav-item nav-link" href="realestate.html">Real Estate</a>
+                            </div>
+
+                        </div>
                         <a class="nav-item nav-link" href="hours.html">Hours</a>
                         <a class="nav-item nav-link" href="directions.html">Directions</a>
                     </div><!-- navbar-nav -->
