@@ -108,21 +108,40 @@ nav .active {
     min-width: 186px;
     }
 
-.map {
-    text-align: center;
-    width: 75%;
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 .jumbotron {
-    color: #af9500;
-    background-color: #555;
-    border: solid #9a9a9a;
+    margin-top: 20px;
+    color: #9a9a9a;
+    background-color: #000;
+    border: solid #af9500;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 10px;
+}
+
+.jumbotron img {
+    width: 260px;
+    padding-bottom: 20px;
 }
 
 .carousel {
     width:640px;
     height:360px;
-    margin: 100px auto 50px auto;
+    margin: 25px auto 20px auto;
     overflow: hidden;
 }
 
