@@ -62,7 +62,7 @@ section::after { content: ''; display: block; clear: both; }
 /* Section - Law Focus */
 
 section.law-focus {
-   margin-top: 20px; margin-bottom: 30px; padding: 0;
+    margin-bottom: 30px; padding: 0;
 }
 
 section.law-focus aside {
@@ -74,7 +74,7 @@ section.law-focus .content {margin: 15px; background: no-repeat center top; back
 section.law-focus .content h3 a {color: #555; text-decoration: none;}
 section.law-focus .content h3 a:hover { text-decoration: underline; }
 
-section.law-focus  .content.bankruptcy {background-image: url(../images/dollar-sign.svg);}
+section.law-focus  .content.bankruptcy {background-image: url(../images/bills.jpg);}
 section.law-focus  .content.real-estate { background-image: url(../images/house.svg); }
 
 .hero {
@@ -199,6 +199,18 @@ footer .content {display: inline;}
 footer a { margin-left: 30px; color: #777; }
 footer a:visited { color: #777; }
 footer a:hover { color: #000; }
+
+
+
+.fixed-bottom {
+    display: block;
+}
+
+.fixed-bottom a {
+    text-decoration: none;
+    color: #af9500;
+}
+
 
 
 .debug {border: dashed blue;}
