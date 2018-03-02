@@ -182,6 +182,16 @@ nav .active {
     
 }
 
+.real-estate-page.card  {
+    width: 85%;
+    display: block;
+    text-align: center;
+}
+
+.real-estate-page.card h5 {
+    font-size: 2rem;
+}
+
 .bankruptcy > h1 h3 {
     text-decoration: underline;
     text-transform: capitalize;
