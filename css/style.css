@@ -153,7 +153,9 @@ nav .active {
 }
 
 .carousel {
-    width:640px;
+/*     width:640px; */
+    width: 75%;
+    min-width: 350px;
     height:100%;
     margin: 25px auto 25px auto;
     overflow: hidden;
