@@ -94,6 +94,11 @@ nav .active {
    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,215,0, .85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.navbar-toggler:hover {
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
 .dropdown-menu {
     background-color: #000;
 }
@@ -152,6 +157,10 @@ nav .active {
     padding-bottom: 20px;
 }
 
+.jumbotron a {
+    color: gold;
+}
+
 .carousel  {
 /*     width:640px; */
     width: 75%;
@@ -177,9 +186,13 @@ nav .active {
 
 .card {
     width: 20rem;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     
 }
+
+.card .card-img-top {
+    box-shadow: 1px 1px 5px #666;
+    }
 
 .real-estate-page.card  {
     width: 85%;
@@ -187,8 +200,39 @@ nav .active {
     text-align: center;
 }
 
+.bankruptcy-page.card {
+    width: 49%;
+    min-width: 320px;
+}
+
 .real-estate-page.card h5 {
     font-size: 2rem;
+}
+
+
+.btn-outline-light {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid gold;
+}
+
+.btn-outline-light:hover {
+    background-color: rgba(255, 217, 0, 0.35);
+    border: 1px solid gold;
+    color: #000;
+}
+
+.btn-outline-light:active, .btn-outline-light.active, .open {
+    background-color: red;
+    border: 1px solid black;
+}
+
+.btn-link {
+    color: #000;
+}
+
+.btn-link:hover {
+    color: silver;
 }
 
 .bankruptcy > h1 h3 {
