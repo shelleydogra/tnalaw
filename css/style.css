@@ -20,47 +20,22 @@ h2 {margin: 0 0 .5em 0; font-size: 1.6em; font-weight: 700; line-height: 1.1em;}
 h3 {margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700;}
 h4 {margin: 0 0 1.5em 0; font-size: 1em; font-weight: 700;}
 
-p { margin: 0 0 1em 0; 
+p { 
+    margin: 0 0 1em 0; 
 }
-
-/*
-a { color: #007eff; }
-a:visited { color: #65b1ff; }
-*/
-
-/* Header */
-/*
-
-header { height: 160px;
-    background: #000;
-    position: relative;
-     }
-header a.logo {
-    z-index: 0;
-    position: absolute;
-    display: block; width: 300px; height: 120px;
-    background: url(../images/logo_tna.png) no-repeat 0 0; background-size: contain;
-    top: 20px; left: 20px;
-    z-index: 0;
-}
-
-header a.logo span {display: none;}
-
-header div.law-firm {position: absolute; width: 42%; top:130px;}
-*/
-
-
-
 
 /* Section - ALL*/
 
 
+/*
 section {padding: 0 30px;}
 section::after { content: ''; display: block; clear: both; }
+*/
 
 
 /* Section - Law Focus */
 
+/*
 section.law-focus {
     margin-bottom: 30px; padding: 0;
 }
@@ -73,9 +48,12 @@ section.law-focus .content {margin: 15px; background: no-repeat center top; back
 
 section.law-focus .content h3 a {color: #555; text-decoration: none;}
 section.law-focus .content h3 a:hover { text-decoration: underline; }
+*/
 
+/*
 section.law-focus  .content.bankruptcy {background-image: url(../images/bills.jpg);}
 section.law-focus  .content.real-estate { background-image: url(../images/house.svg); }
+*/
 
 .hero {
     text-align: center;
@@ -85,18 +63,22 @@ section.law-focus  .content.real-estate { background-image: url(../images/house.
 }
 
 
-nav > a {
-    color: #daa520;
-    border: none;
+nav .nav-item  {
+    color: gold; 
+    margin-right: 5px;
 }
 
-nav > a:hover {
-    color: #9a9a9a;
+nav .nav-item:hover {
+    color: #000;
+    background-color: gold;
+    transition: all 0.4s ease 0s;
+    border-radius: 10px;
 }
 
 nav .active {
-    text-decoration: underline;
-    color: #af9500;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px gold solid;
 
 }
 
@@ -108,12 +90,17 @@ nav .active {
     background-color: #000;
 }
 
+.dropdown-menu .active {
+    background-color: #000;
+    color: #fff;
+}
+
 .dropdown-menu > a {
-   color: #af9500;
+   color: gold;
 }
 
 .dropdown-menu > a:hover {
-   color: #9a9a9a;
+   color: #000;
 }
 
 .navbar-brand {
@@ -184,10 +171,14 @@ nav .active {
     
 }
 
-.realestate img {
-    max-width: 300px;
+.law-focus h5{
+    font-size: 1.8rem;
+    font-weight: 700;
 }
 
+.law-focus p {
+    font-size: 1.3rem;
+}
 
 /* Footer */
 
@@ -204,11 +195,15 @@ footer a:hover { color: #000; }
 
 .fixed-bottom {
     display: block;
+    text-align: center;
+    color: #ddd;
+    font-weight: 700;
+    
 }
 
 .fixed-bottom a {
     text-decoration: none;
-    color: #af9500;
+    color: gold;
 }
 
 
