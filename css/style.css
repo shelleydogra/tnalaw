@@ -79,11 +79,20 @@ nav .active {
     color: #fff;
     border-radius: 10px;
     border: 2px gold solid;
-
 }
 
 .navbar {
     background-color: #000;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon  {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,215,0, .85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+   border: 1px solid rgba(255, 215, 0, 0.98);
+   border-radius: 3px;
 }
 
 .dropdown-menu {
@@ -146,9 +155,14 @@ nav .active {
 
 .carousel {
     width:640px;
-    height:360px;
+    height:100%;
     margin: 25px auto 25px auto;
     overflow: hidden;
+}
+
+.card {
+    width: 20rem;
+    
 }
 
 .bankruptcy > h1 h3 {
@@ -220,31 +234,26 @@ footer a:hover { color: #000; }
     }
 }
 
-@media screen and (max-width:768px) {
-    header {background: black;
+@media screen and (max-width:767px) {
+    .card {
+        width: 23rem;
     }
 }
 
 @media screen and (max-width:414px) {
-    header {background: black;
+     .card {
+        width: 21rem;
     }
 }
 
 @media screen and (max-width:375px) {
-    header {background: black;
+    .card {
+        width: 20rem;
     }
 }
 
 @media screen and (max-width:320px) {
-    header { height: 75px;
-    background: black;
-    position: relative;
-    }
-    header a.logo {
-    z-index: 0;
-    position: absolute;
-    display: block; width: 160px; height: 56px;
-    background: url(../images/logo_tna.png) no-repeat 0 0; background-size: contain;
-    top: 7px; left: 10px;
+    .card {
+        width: 18rem;
     }
 }
