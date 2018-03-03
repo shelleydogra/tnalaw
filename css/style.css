@@ -326,6 +326,22 @@ footer a:hover { color: #000; }
     color: gold;
 }
 
+.fixed-bottom .phone {
+    border: 1px outset #000;
+    padding: 1px 5px 1px 5px;
+    border-radius: 5px;
+    background-color: gold;
+    color: #000;
+}
+
+.fixed-bottom .phone:hover {
+    background-color: #000;
+    border: 2px outset gold;
+    padding: 1px 5px 1px 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
 
 
 .debug {border: dashed blue;}
