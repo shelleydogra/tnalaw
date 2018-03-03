@@ -175,7 +175,7 @@ nav .active {
 
 .carousel-caption  {
     height: 60px;
-    margin: 0px;
+    margin: 5px;
     padding: 0px;
     color: gold;
     background-color: rgba(10, 10, 10, 0.59);
@@ -183,6 +183,8 @@ nav .active {
     display: block;
     text-align: center;
     border-radius: 30px;
+    top: 0; bottom: auto;
+    
 }
 
 .card {
