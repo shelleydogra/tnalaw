@@ -127,6 +127,9 @@ nav .active {
     text-align: center;
 }
 
+.map-responsive {
+    border: 1px groove gold;
+}
 
 .jumbotron {
     margin-top: 20px;
@@ -159,6 +162,8 @@ nav .active {
     border-radius: 5px;
 }
 
+
+
 .carousel-caption  {
     height: 60px;
     margin: 5px;
@@ -171,7 +176,15 @@ nav .active {
     border-radius: 25px;
     position: absolute;
     top: 0; bottom: auto;
+}
+
+.carousel-caption > h5 {
+    font-weight: 700;
+}
     
+.carousel-caption > p{
+    font-weight: 700;
+    font-style: italic;
 }
 
 .card {
