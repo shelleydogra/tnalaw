@@ -108,7 +108,8 @@ nav .active {
     margin-top: 20px;
     color: #9a9a9a;
     background-color: #000;
-    border: solid #af9500;
+    box-shadow: inset 2px 2px 15px gold;
+/*     border: solid #af9500; */
     text-align: center;
     text-transform: capitalize;
     width: 100%;
@@ -187,6 +188,17 @@ nav .active {
 
 .real-estate-page.card h5 {
     font-size: 2rem;
+}
+
+.comment-section {
+    box-shadow: 1px 2px 5px #666;
+    text-align: justify;
+    padding: 50px;
+    margin: 15px 0px 15px 0px;
+}
+
+.comment-section h2 {
+   text-align: center;
 }
 
 
