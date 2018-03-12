@@ -96,6 +96,10 @@ nav .active {
     text-align: center;
 }
 
+.content-box {
+    
+}
+
 .map-responsive {
     border: 1px groove gold;
 }
@@ -262,6 +266,12 @@ footer a {
     text-decoration: none;
 }
 
+footer h4 {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
 footer a:hover {
     color: #000;
     background-color: gold;
@@ -275,7 +285,7 @@ footer .content{text-align: justify;}
 
 .copyright{margin-top: 25px;}
 
-.disclaimer {font-size: .8rem;}
+.disclaimer {font-size: .7rem;}
 
 .text-muted {
     font-size: .8em;
@@ -313,6 +323,18 @@ footer .content{text-align: justify;}
     color: #fff;
 }
 
+address{
+    font-size: 1.1rem;
+}
+
+.developer a {
+    color: #ccc;
+}
+
+.developer a:hover {
+    color: #fff;
+    background-color: #000;
+}
 
 
 .debug {border: dashed blue;}
