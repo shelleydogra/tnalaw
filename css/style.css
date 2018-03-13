@@ -29,7 +29,7 @@ p {
     text-align: center;
     text-transform: capitalize;
     display: block;
-    width: 300px;
+    width: 400px;
 }
 
 
@@ -96,8 +96,13 @@ nav .active {
     text-align: center;
 }
 
-.content-box {
-    
+.content {
+    text-align: justify;
+}
+
+article.about {
+    margin: 0px 0px 0px 0px;
+    color: red;
 }
 
 .map-responsive {
@@ -137,7 +142,6 @@ nav .active {
 }
 
 
-
 .carousel-caption  {
     height: 65px;
     margin: 5px;
@@ -160,6 +164,28 @@ nav .active {
     font-weight: 700;
     font-style: italic;
 }
+
+.bankruptcy-page.carousel img {
+    width: 55%; height: 60%;
+}
+
+.svg-container { 
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%; 
+	vertical-align: middle; 
+	overflow: hidden; 
+}
+
+.svg-content { 
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
 
 .card {
     width: 20rem;
