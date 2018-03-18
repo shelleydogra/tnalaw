@@ -32,6 +32,18 @@ p {
     width: 400px;
 }
 
+.heading {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.box-it {
+    box-shadow: 1px 1px 5px #666;
+    padding: 20px;
+    text-align: justify;
+    margin: 20px;
+}
 
 nav .nav-item  {
     color: gold; 
@@ -132,7 +144,7 @@ article.about {
 
 .carousel  {
 /*     width:640px; */
-    width: 75%;
+    width: 85%;
     min-width: 320px;
     height:100%;
     margin: 25px auto 25px auto;
@@ -376,6 +388,12 @@ address{
 
 
 .debug {border: dashed blue;}
+.debug_red {border: dashed red;}
+.debug_yellow {border: dashed yellow;}
+.debug_purple {border: dashed purple;}
+
+
+
 
 @media screen and (max-width:1024px) {
     header {background: black;
