@@ -209,7 +209,17 @@ article.about {
 .card {
     width: 20rem;
     margin-bottom: 25px;
-    
+}
+
+.main-page.card {
+    margin: 0px auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.interactive:hover {
+    position: relative;
+    top: -5px;
 }
 
 .card .card-text {
