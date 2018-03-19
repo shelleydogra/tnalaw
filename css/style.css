@@ -34,7 +34,15 @@ p {
 
 .heading {
     text-align: center;
+}
 
+.heading-dark {
+    text-align: center;
+    color: #fff;
+    background-color: #555;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
 }
 
 .box-it {
