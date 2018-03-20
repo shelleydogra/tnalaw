@@ -1,7 +1,5 @@
 /* TNA Law office Style 
-    goldenrod: #DAA520
-    
-    
+    goldenrod: #DAA520 
 */
 
 
@@ -11,7 +9,8 @@ body {
     font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; color: #555; margin: 0; padding: 0;
 }
 
-#page {
+img {
+    max-width: 1000px !important;
 }
 
 /* Text */
@@ -47,10 +46,11 @@ p {
 
 .box-it {
     box-shadow: 1px 1px 5px #666;
-    padding: 20px;
+    padding: 15px 5px 15px 5px;
     text-align: justify;
-    margin: 20px;
+    margin: 15px 5px 15px 5px;
 }
+
 
 nav .nav-item  {
     color: gold; 
@@ -152,7 +152,7 @@ article.about {
 .carousel  {
 /*     width:640px; */
     width: 85%;
-    min-width: 320px;
+/*     min-width: 320px; */
     height:100%;
     margin: 25px auto 25px auto;
     overflow: hidden;
@@ -186,6 +186,10 @@ article.about {
 
 .bankruptcy-page.carousel img {
     width: 55%; height: 60%;
+}
+
+.real-estate-page.carousel img {
+    width: 55%; 
 }
 
 .svg-container { 
@@ -238,7 +242,7 @@ article.about {
 
 .bankruptcy-page.card {
     width: 49%;
-    min-width: 420px;
+    min-width: 320px;
 }
 
 .real-estate-page.card h5 {
@@ -248,8 +252,8 @@ article.about {
 .comment-section {
     box-shadow: 1px 2px 5px #666;
     text-align: justify;
-    padding: 50px;
-    margin: 15px 0px 15px 0px;
+    padding: 25px 15px 35px 15px;
+    margin: 15px 0px 25px 0px;
 }
 
 .comment-section h2 {
@@ -352,7 +356,10 @@ footer .content{text-align: justify;}
 
 .copyright{margin-top: 25px;}
 
-.disclaimer {font-size: .7rem;}
+.disclaimer {
+    font-size: .7rem;
+    padding: 0px 10px 0px 10px;
+}
 
 .text-muted {
     font-size: .8em;
@@ -438,18 +445,13 @@ address{
     .card {
         width: 20rem;
     }
-    .carousel{
-        width: 300px;
-        bor
-    }
+
+    
 }
 
 @media screen and (max-width:320px) {
     .card {
         width: 18rem;
     }
-    .carousel {
-        width: 280px;
-        border: 0px solid #e21111;
-    }
+
 }
