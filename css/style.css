@@ -128,7 +128,8 @@ article.about {
 
 .jumbotron {
     margin-top: 20px;
-    color: #9a9a9a;
+/*     color: #9a9a9a; */
+    color: #fff;
     background-color: #000;
     box-shadow: inset 2px 2px 15px gold;
 /*     border: solid #af9500; */
@@ -326,7 +327,7 @@ article.about {
 footer {
     background-color: #000000;
     padding: 20px 0px 60px 0px;
-    color: silver;
+    color: white;
     font-size: .8em;
 }
 
