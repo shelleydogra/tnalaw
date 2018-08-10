@@ -14,8 +14,8 @@
 <body>
 
     <div id="page " class="text-center">
-    
 
+        <!-- NAV -->
         <nav class="navbar navbar-expand-md sticky-top">
             <div class="container">
 
@@ -30,206 +30,272 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                </button>
+            </button>
 
-                <div class="collapse navbar-collapse" id="myTogglerNav">
-                    <div class="navbar-nav nav-fill ml-sm-auto">
-                        <a class="nav-item nav-link active" href="index.html">Home</a>
-                        <div class="dropdown">
+            <div class="collapse navbar-collapse" id="myTogglerNav">
+                <div class="navbar-nav nav-fill ml-sm-auto">
+                    <a class="nav-item nav-link active" href="index.html">Home</a>
+                    <div class="dropdown">
 
-                            <a class="nav-item nav-link dropdown-toggle"
-                            data-toggle="dropdown" id="servicesDropdown"
-                            aria-haspopup="true" aria-expanded="false"
-                            href="#">Services
-                            </a>
+                        <a class="nav-item nav-link dropdown-toggle"
+                        data-toggle="dropdown" id="servicesDropdown"
+                        aria-haspopup="true" aria-expanded="false"
+                        href="#">Services
+                    </a>
 
-                            <div class="dropdown-menu" aria-labeleldby="serviesDropdown">
-                                <a class="nav-item nav-link" href="bankruptcy.html">Bankruptcy</a>
-                                <a class="nav-item nav-link" href="realestate.html">Real Estate</a>
-                            </div>
+                    <div class="dropdown-menu" aria-labeleldby="serviesDropdown">
+                        <a class="nav-item nav-link" href="bankruptcy.html">Bankruptcy</a>
+                        <a class="nav-item nav-link" href="realestate.html">Real Estate</a>
+                    </div>
 
-                        </div>
-                        <a class="nav-item nav-link" href="hours.html">Hours</a>
-                        <a class="nav-item nav-link" href="directions.html">Directions</a>
-                    </div><!-- navbar-nav -->
-                </div><!-- container -->
-        </nav>
+                </div>
+                <a class="nav-item nav-link" href="hours.html">Hours</a>
+                <a class="nav-item nav-link" href="directions.html">Directions</a>
+            </div><!-- navbar-nav -->
+        </div><!-- container -->
+    </nav>
+    <!-- END NAV -->
 
-       <div class="container">
-        	<div class="row text-center">
-        		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                    
+
+
+
+
+<!-- CAROUSEL -->
+
+
+
+    <div class="container"> 
+        <div class="row text-center">
+            <div id="carouselControls" class="carousel carousel-fade" data-ride="carousel" data-interval="3000">
+                
+                
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselControls" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselControls" data-slide-to="1"></li>
+                    <li data-target="#carouselControls" data-slide-to="2"></li>
+                </ol>
+                
+                
+                <div class="carousel-inner">
+
+
                     <div class="carousel-item active">
-                      <img class="d-block w-100 img-fluid" src="images/real-estate-money.jpg" alt="First slide">
-                        <div class="carousel-caption">
-                            <h5>Real Estate</h5>
-                            <p>Residential and Commercial</p>
+                        <img class="d-block w-100 img-fluid" src="images/tna_images/Image_over_City.jpg" alt="Second slide">
+                        <div class="carousel-caption ">
+                            <h1>Patrick Tang <br /> <span class="carousel-caption-subHeading">Chicago's Premier Attorney</span> </h1>
                         </div>
                     </div>
-                    
+
                     <div class="carousel-item">
-                      <img class="d-block w-100 img-fluid" src="images/lady-depression_640.jpg" alt="Second slide">
-                      <div class="carousel-caption ">
-                            <h5>Bankruptcy</h5>
-                            <p>Chapter 7 & Chapter 13</p>
+                        <img class="d-block w-100 img-fluid" src="images/lady-depression_640.jpg" alt="Second slide">
+                        <div class="carousel-caption ">
+                            <h1>Bankruptcy <br /> <span class="carousel-caption-subHeading">Chapter 7 & Chapter 13</span> </h1>
                         </div>
                     </div>
-                  </div>
-                </div>
-        	</div>
-        </div>
-    
-        
 
-<!--
-        <div class="container law-focus">
-        	<div class="row">
-            	
-            	
-            	
-        		<div class="card mx-auto bankruptcy">
-                  <img class="card-img-top" src="images/turn-on_640.jpg" style="height: 12rem" alt="Card image cap">
-                  <div class="card-body align-items-center">
-                    <h5 class="card-title">Bankruptcy</h5>
-                        <p class="card-text">We have over 20 years of experience in Bankruptcy Law and we have worked on a wide variety of matters when dealing with Chapter 7 and Chapter 13 filings.</p>
-                        <div class="collapse multi-collapse" id="multiCollapseExample1">
-                        <p class="card-text"> We have helped clients ranging from liquidating some credit card debts, all the way to reorganizing debts to help clients stop a foreclosure sale of their home.  We have always consulted with our clients and let them know what is best for them, even if it means to not file Bankruptcy.  We understand that debt creates many stresses clients and we strive our best to assist our clients with their wishes.</p>
-                        <a href="bankruptcy.html" class="btn btn-outline-light">Bankruptcy</a>
+                    <div class="carousel-item ">
+                        <img class="d-block w-100 img-fluid" src="images/real-estate-money.jpg" alt="First slide">
+                        <div class="carousel-caption">
+                            <h1>Real Estate <br /> <span class="carousel-caption-subHeading">Residential and Commercial</span>  </h1>
                         </div>
-                            <a class="btn btn-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">read more...</a>
-                        </div>
-                </div>
-                
-                <div class="card realestate mx-auto">
-                  <img class="card-img-top" src="images/money-640.jpg" style="height: 12rem" alt="Card image cap">
-                  <div class="card-body align-items-center">
-                    <h5 class="card-title">Real Estate</h5>
-                    <p class="card-text">We have 8 years of experience in Real Estate Law and we have worked on deals ranging from residential deals to commercial deals.  </p>
-                    <div class="collapse multi-collapse" id="multiCollapseExample2">
-                    <p class="card-text">Buying or selling a home can be quite stressful for anybody.  We understand that buying a home is a major step in everyone's lives and it can create a lot of anxiety.  In additional to buying a home, selling a home requires a knowledgeable attorney to ensure a successful transaction.  We are here to help our clients navigate the home purchase or sale process, and provide our clients a smooth and comfortable transaction.</p>   
-                    <a href="realestate.html" class="btn btn-outline-light">Real Estate</a>
-                    </div>  
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">read more...</button>
+                        
                     </div>
+
                 </div>
 
+                <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
 
-
-        	</div>
-        </div>
--->
-        
-        <div class="container">
-        	<div class="row">
-        		<div class="col-12 mx-auto align-items-center">
-        			<section class="comment-section">
-                      
-                      <article>
-                        <h2>PHILOSOPHY AT TANG & ASSOCIATES LAW OFFICE, LLC</h2>
-                        <p>Struggling with debt can be a sensitive subject for many people to talk about.  At Tang & Associates, we are here to help guide you through these tough financial times.  We understand that all of our clients’ needs are stressful, urgent and of the greatest importance.  We understand that not all clients’ needs are the same and that many clients have unique issues.  We strive to meet those unique needs and demands and we take great pride in surpassing all of our clients’ expectations. </p> <p> Our experience in Bankruptcy matters and ability to cater to our clients’ needs make us the right law firm for you.  Call us today for a free consultation to discuss how we can help you now. </p>
-                      </article>
-        
-                  </section>
-        
-        		</div>
-        	</div>
-        </div>
-
-        <div class="container">
-        	<div class="row">
-        		<div class="col-10 mx-auto align-items-center">
-        			<section id="in-depth-desc">
-                      
-                      <article class="">
-                        <h2>ABOUT TANG & ASSOCIATES LAW OFFICE, LLC</h2>
-                        <p>Tang & Associates Law Office is a debt relief law firm in Chicago, IL practicing in Chapter 7 Bankruptcy and Chapter 13 Bankruptcy to help you stop your debts, eliminate past due bills, stop harassing debt collection calls, stop foreclosures, stop foreclosure sale dates, stop repossessions, lift holds on frozen check accounts and savings accounts, remove boots from cars due to parking tickets, reinstate driver’s licenses.  We can help you start a debt free life by filing a Chapter 7 Bankruptcy for you to wipe away all of your debts.  We can help you keep your house and car by getting you caught up with all of your bills with a Chapter 13 Bankruptcy. </p> <p>If you are not looking for debt relief, and are in the market to buy or sell a house, condo or any other real estate in the local area, we can assist you in buying or selling any and all real estate.</p> <p>Whether it be the difficult struggles with managing your debts or dealing with the exciting, but stressful, process of buying or selling your home, Tang & Associates Law Office is happy to help you with your legal needs.  Call us now.</p>
-                      </article>
-        
-                  </section>
-        
-        		</div>
-        	</div>
-        </div>
-    
-    
-    <!--Footer-->
-    <footer>
-    
-        <div class="container text-center">
-                	
-        	<div class="row">
-    
-        		<!--First column-->
-        		<div class="column col-md-4 col-sm-12">
-        			<h4>OUR COMMITMENT</h4>
-                    <p class="content">At Tang & Associates, we understand that all of our clients’ needs are stressful, urgent and of the greatest importance.  We understand that not all clients’ needs are the same and that many clients have unique issues.  We strive to meet those unique needs and demands and we take great pride in surpassing all of our clients’ expectations. <br /><a href="tel:1-773-944-4000">Call</a> us today for a free consultation to discuss how we can help you now.</p>
-        		</div>
-        		<!-- column-->
-    
-        		<!-- Second column-->
-        		<div class="column col-md-4 col-sm-12">
-        			<h4>Quick Links</h4>
-        			<h6><a href="index.html">Home</a></h6>
-                    <h6><a href="bankruptcy.html">Bankruptcy</a></h6>
-                    <h6><a href="realestate.html">Real Estate</a></h6>
-                    <h6><a href="hours.html">Hours</a></h6>
-                    <h6><a href="directions.html">Directions</a></h6>
-        		</div>
-        		<!-- Second column-->
-    
-        		<!-- Third column-->
-        		<div class="column col-md-4 col-sm-12">
-        			<h4>Contact</h4>
-                    <address>
-                        <h6 class="mb-0">Patrick Tang</h6>
-                        <p class="mt-0 mb-0">Attorney at Law</p>
-                        <a class="mt-0" href="mailto:ptang@tnalawoffice.com">ptang@tnalawoffice.com</a><br>
-                        4802 N Broadway St.<br>
-                        Suite 201B<br>
-                        Chicago, IL 60640<br>
-                        <a href="tel:1-773-944-4000">Phone: 773-944-4000</a> <br />
-                    </address>
-                </div>
-                <!-- Third column-->
-        	</div><!-- Row -->
-    
-            <div class="row ">
-                
-                    <div class="content disclaimer">
-                        <p>
-                            <span class="mr-3">&copy; TNA Law</span>  Disclaimer: The information in this web site is not intended to constitute legal advice or to create an attorney-client relationship.  The information, documents or forms provided herein is intended for general information purposes only and must not be regarded as legal advice.  Laws change periodically; therefore the information in this site may not be accurate.  It is imperative that you seek legal counsel in order to ascertain your rights and obligations under the applicable law and based upon your specific circumstances.  We are a federal debt relief agency.  We help people file for bankruptcy relief under the Bankruptcy Code.”
-                        </p>
-                    </div>
-                
-            </div><!-- row -->
-    
-            <div class="copyright text-center">
-            	<p>&copy; Copyright 2018 Tang & Associates. All rights reserved.</p>
-            	<p class="text-muted developer">Created By: <a href="codestructures.com">codeStructures</a></p>
             </div>
-    
-        </div> <!--  Container -->
-    
-    </footer>
-    <!--End Footer-->
-    
 
-    <!-- Bottom Static Navbar  -->
-	<nav class="navbar fixed-bottom text-capitalize ">
-				
-		<div class="d-block d-sm-none nav-bottom"><b>Call   <a class="phone" href="tel:7739444000"> (773) 944-4000 </a> Now </b> </div>
-		
-		<div class="d-none d-sm-block d-md-none"><b>Call   <a class="phone" href="tel:7739444000"> (773) 944-4000 </a> Now </b> </div>
-		
-		<div class="d-none d-md-block d-lg-none"> <b>Call <a class="phone" href="tel:7739444000"> (773) 944-4000 </a> Now</b> </div>
-	
-		<div class="d-none d-lg-block d-xl-none"><b>Call <a class="phone" href="tel:7739444000"> (773) 944-4000 </a> Now</b> | Walk Ins Welcome. </div>
-		
-		<div class="d-none d-xl-block"><b>Call <a class="phone" href="tel:7739444000"> (773) 944-4000 </a> Now</b> | Weekday 9am 9pm | Weekends by Appointment Only. </div>
-	
-	</nav>
-    
+        </div>
+
+
+
+    </div>
+
+<!-- END CAROUSEL -->
+
+
+    <!--
+    <div class="container law-focus">
+    <div class="row">
+
+
+
+    <div class="card mx-auto bankruptcy">
+    <img class="card-img-top" src="images/turn-on_640.jpg" style="height: 12rem" alt="Card image cap">
+    <div class="card-body align-items-center">
+    <h5 class="card-title">Bankruptcy</h5>
+    <p class="card-text">We have over 20 years of experience in Bankruptcy Law and we have worked on a wide variety of matters when dealing with Chapter 7 and Chapter 13 filings.</p>
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+    <p class="card-text"> We have helped clients ranging from liquidating some credit card debts, all the way to reorganizing debts to help clients stop a foreclosure sale of their home.  We have always consulted with our clients and let them know what is best for them, even if it means to not file Bankruptcy.  We understand that debt creates many stresses clients and we strive our best to assist our clients with their wishes.</p>
+    <a href="bankruptcy.html" class="btn btn-outline-light">Bankruptcy</a>
+</div>
+<a class="btn btn-link" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">read more...</a>
+</div>
+</div>
+
+<div class="card realestate mx-auto">
+<img class="card-img-top" src="images/money-640.jpg" style="height: 12rem" alt="Card image cap">
+<div class="card-body align-items-center">
+<h5 class="card-title">Real Estate</h5>
+<p class="card-text">We have 8 years of experience in Real Estate Law and we have worked on deals ranging from residential deals to commercial deals.  </p>
+<div class="collapse multi-collapse" id="multiCollapseExample2">
+<p class="card-text">Buying or selling a home can be quite stressful for anybody.  We understand that buying a home is a major step in everyone's lives and it can create a lot of anxiety.  In additional to buying a home, selling a home requires a knowledgeable attorney to ensure a successful transaction.  We are here to help our clients navigate the home purchase or sale process, and provide our clients a smooth and comfortable transaction.</p>
+<a href="realestate.html" class="btn btn-outline-light">Real Estate</a>
+</div>
+<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">read more...</button>
+</div>
+</div>
+
+
+
+</div>
+</div>
+-->
+
+<!-- PHILOSOPHY -->
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 mx-auto align-items-center">
+            <section class="comment-section">
+
+                <article>
+                    <h2>PHILOSOPHY AT TANG & ASSOCIATES LAW OFFICE, LLC</h2>
+                    <p>Struggling with debt can be a sensitive subject for many people to talk about.  At Tang & Associates, we are here to help guide you through these tough financial times.  We understand that all of our clients’ needs are stressful, urgent and of the greatest importance.  We understand that not all clients’ needs are the same and that many clients have unique issues.  We strive to meet those unique needs and demands and we take great pride in surpassing all of our clients’ expectations. </p> <p> Our experience in Bankruptcy matters and ability to cater to our clients’ needs make us the right law firm for you.  Call us today for a free consultation to discuss how we can help you now. </p>
+                </article>
+
+            </section>
+
+        </div>
+    </div>
+</div>
+
+<!-- ./ PHILOSOPHY -->
+
+
+
+<!-- FACADE IMAGE -->
+
+<div class="container">
+	<div class="row">
+		<div class="solo-image">
+			<img class="d-block w-100 img-fluid rounded" src="images/tna_images/library.jpg"/>
+		</div>
+	</div>
+</div>
+
+
+<!-- END FACADE IMAGE -->
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 mx-auto align-items-center">
+            <section id="in-depth-desc">
+
+                <article>
+                    <h2>ABOUT TANG & ASSOCIATES LAW OFFICE, LLC</h2>
+                    <p>Tang & Associates Law Office is a debt relief law firm in Chicago, IL practicing in Chapter 7 Bankruptcy and Chapter 13 Bankruptcy to help you stop your debts, eliminate past due bills, stop harassing debt collection calls, stop foreclosures, stop foreclosure sale dates, stop repossessions, lift holds on frozen check accounts and savings accounts, remove boots from cars due to parking tickets, reinstate driver’s licenses.  We can help you start a debt free life by filing a Chapter 7 Bankruptcy for you to wipe away all of your debts.  We can help you keep your house and car by getting you caught up with all of your bills with a Chapter 13 Bankruptcy. </p> <p>If you are not looking for debt relief, and are in the market to buy or sell a house, condo or any other real estate in the local area, we can assist you in buying or selling any and all real estate.</p> <p>Whether it be the difficult struggles with managing your debts or dealing with the exciting, but stressful, process of buying or selling your home, Tang & Associates Law Office is happy to help you with your legal needs.  Call us now.</p>
+                </article>
+
+            </section>
+
+        </div>
+    </div>
+</div>
+
+
+<!--Footer-->
+<footer>
+
+    <div class="container text-center">
+
+        <div class="row">
+
+            <!--First column-->
+            <div class="column col-md-4 col-sm-12">
+                <h4>OUR COMMITMENT</h4>
+                <p class="content">At Tang & Associates, we understand that all of our clients’ needs are stressful, urgent and of the greatest importance.  We understand that not all clients’ needs are the same and that many clients have unique issues.  We strive to meet those unique needs and demands and we take great pride in surpassing all of our clients’ expectations. <br /><a href="tel:1-773-944-4000">Call</a> us today for a free consultation to discuss how we can help you now.</p>
+            </div>
+            <!-- column-->
+
+            <!-- Second column-->
+            <div class="column col-md-4 col-sm-12">
+                <h4>Quick Links</h4>
+                <h6><a href="index.html">Home</a></h6>
+                <h6><a href="bankruptcy.html">Bankruptcy</a></h6>
+                <h6><a href="realestate.html">Real Estate</a></h6>
+                <h6><a href="hours.html">Hours</a></h6>
+                <h6><a href="directions.html">Directions</a></h6>
+            </div>
+            <!-- Second column-->
+
+            <!-- Third column-->
+            <div class="column col-md-4 col-sm-12">
+                <h4>Contact</h4>
+                <address>
+                    <h6 class="mb-0">Patrick Tang</h6>
+                    <p class="mt-0 mb-0">Attorney at Law</p>
+                    <a class="mt-0" href="mailto:ptang@tnalawoffice.com">ptang@tnalawoffice.com</a><br>
+                    4802 N Broadway St.<br>
+                    Suite 201B<br>
+                    Chicago, IL 60640<br>
+                    <a href="tel:1-773-944-4000">Phone: 773-944-4000</a> <br />
+                </address>
+            </div>
+            <!-- Third column-->
+        </div><!-- Row -->
+
+        <div class="row ">
+
+            <div class="content disclaimer">
+                <p>
+                    <span class="mr-3">&copy; TNA Law</span>  Disclaimer: The information in this web site is not intended to constitute legal advice or to create an attorney-client relationship.  The information, documents or forms provided herein is intended for general information purposes only and must not be regarded as legal advice.  Laws change periodically; therefore the information in this site may not be accurate.  It is imperative that you seek legal counsel in order to ascertain your rights and obligations under the applicable law and based upon your specific circumstances.  We are a federal debt relief agency.  We help people file for bankruptcy relief under the Bankruptcy Code.”
+                </p>
+            </div>
+
+        </div><!-- row -->
+
+        <div class="copyright text-center">
+            <p>&copy; Copyright 2018 Tang & Associates. All rights reserved.</p>
+            <p class="text-muted developer">Created By: <a href="codestructures.com">codeStructures</a></p>
+        </div>
+
+    </div> <!--  Container -->
+
+</footer>
+<!--End Footer-->
+
+
+<!-- Bottom Static Navbar  -->
+<nav class="navbar fixed-bottom text-capitalize ">
+
+    <div class="d-block d-sm-none nav-bottom"><b>Call   <a class="phone" href="tel:7739444000"> (773) 944-4000 </a> Now </b> </div>
+
+    <div class="d-none d-sm-block d-md-none"><b>Call   <a class="phone" href="tel:7739444000"> (773) 944-4000 </a> Now </b> </div>
+
+    <div class="d-none d-md-block d-lg-none"> <b>Call <a class="phone" href="tel:7739444000"> (773) 944-4000 </a> Now</b> </div>
+
+    <div class="d-none d-lg-block d-xl-none"><b>Call <a class="phone" href="tel:7739444000"> (773) 944-4000 </a> Now</b> | Walk Ins Welcome. </div>
+
+    <div class="d-none d-xl-block"><b>Call <a class="phone" href="tel:7739444000"> (773) 944-4000 </a> Now</b> | Weekday 9am 9pm | Weekends by Appointment Only. </div>
+
+</nav>
+
 
 
 </div> <!-- #page -->
