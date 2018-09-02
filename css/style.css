@@ -159,7 +159,7 @@ article.about {
     width: 100%;
 /*     min-width: 320px; */
     height:100%;
-    margin: 25px auto 25px auto;
+    margin: 10px auto 15px auto;
     overflow: hidden;
     color: gold;
     border-radius: 5px;
@@ -177,7 +177,7 @@ article.about {
     height: 65px;
     margin: 5px;
     padding: 0px;
-    color: gold;
+    color: #ffd900;
 /*     background-color: rgba(10, 10, 10, 0.59); */
     background-repeat: no-repeat;
     display: block;
