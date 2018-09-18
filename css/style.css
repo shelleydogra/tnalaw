@@ -348,6 +348,12 @@ article.about {
     font-size: 1.1rem;
 }
 
+
+.banner img {
+    max-width: 1200px;
+}
+
+
 /* FOOTER */
 footer {
     background-color: #000000;
@@ -447,7 +453,7 @@ address{
     header {background: black;
     }
     .carousel-caption {
-        color: green;
+        color: silver;
     }
     .carousel-caption h1{
         font-size: 3.8rem;
@@ -460,7 +466,7 @@ address{
 
 @media screen and (max-width:991px) {
     .carousel-caption{
-        color: blue;
+        color: silver;
     }
     .carousel-caption h1{
         font-size: 2.9rem;
@@ -472,7 +478,7 @@ address{
 
 @media screen and (max-width:834px) {
     .carousel-caption{
-        color: lime;
+        color: silver;
     }
     .carousel-caption h1{
         font-size: 2.8rem;
@@ -503,7 +509,7 @@ address{
         width: 23rem;
     }
     .carousel-caption{
-        color: ;
+        color: silver;
     }
     .carousel-caption h1{
         font-size: 1.6rem;
@@ -519,7 +525,7 @@ address{
         width: 21rem;
     }
     .carousel-caption{
-        color: fuchsia;
+        color: silver;
     }
     .carousel-caption h1{
         font-size: 1.3rem;
@@ -535,7 +541,7 @@ address{
         width: 20rem;
     }
     .carousel-caption{
-        color: gold;
+        color: silver;
     }
     .carousel-caption h1{
         font-size: 1.0rem;
@@ -551,7 +557,7 @@ address{
         width: 18rem;
     }
         .carousel-caption{
-        color: olive;
+        color: silver;
     }
     .carousel-caption h1{
         font-size: 1.0rem;
